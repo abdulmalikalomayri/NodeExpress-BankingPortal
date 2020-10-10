@@ -1,7 +1,8 @@
 <%- include('header'); %>
 
 
-
+  <%- include('transaction', { account: account }); %>
+  
   <% if (account.unique_name == 'credit' && account.balance > 0) { %>
     <br><a href="/payment">Make a Payment</a>
   <% } %>
