@@ -1,3 +1,8 @@
+/**
+ * This is very old project followed by plurhsight course 
+ * but it still run find by running on cmd (npm start)
+ * there's no model and database in this project all the dumpy data is from json folder
+ */
 const fs = require('fs');
 const path = require('path');
 
